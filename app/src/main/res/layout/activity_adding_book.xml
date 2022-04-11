@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="66dp"
         android:layout_marginBottom="44dp"
-        android:hint="Username"
+        android:hint="@string/hintUsername"
         android:padding="15dp"
         android:textColor="@color/black"
         android:textSize="15sp"
@@ -29,7 +29,7 @@
         android:layout_width="331dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp"
-        android:hint="Password"
+        android:hint="@string/hintPassword"
         android:padding="15dp"
         android:textColor="@color/black"
         android:textSize="15sp"
@@ -47,26 +47,14 @@
         android:layout_marginBottom="42dp"
         android:onClick="addBook"
         android:padding="10dp"
-        android:text="SAVE"
+        android:text="@string/savetext"
         android:backgroundTint="#FF3D00"
         android:textSize="15sp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="377dp"
-        android:layout_height="262dp"
-        android:layout_marginBottom="52dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.529"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonSave"
-        app:layout_constraintVertical_bias="0.688" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
